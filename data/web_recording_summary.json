@@ -1,0 +1,876 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "x-requested-with",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "ua-cpu",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "dnt",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": false,
+      "type": "text/javascript"
+    },
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/x-icon"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/jpeg"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/gif"
+    },
+    {
+      "IsNonResource": false,
+      "type": "font/woff"
+    },
+    {
+      "IsNonResource": false,
+      "type": "font/ttf"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/x-javascript"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/vnd.ms-fontobject"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 28,
+    "RecordedBrowser": "Internet Explorer",
+    "RecordingDate": "Jan-15-2019",
+    "RecordingDuration": 20422,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1547584706,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 1800194,
+    "TotalBytesSent": 25467,
+    "TotalRequests": 67,
+    "UserAgent": "Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "ziftsolutions.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "13.35.115.92",
+          "IncludeInScript": true,
+          "Name": "widgets.ziftsolutions.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 109,
+              "EventId": 652,
+              "HttpStatus": 200,
+              "Size": 2034,
+              "URL": "https://widgets.ziftsolutions.com/alteryx.ziftsolutions.com/js/ff80818164ee31870164f5b8629f033e"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 109,
+              "EventId": 648,
+              "HttpStatus": 200,
+              "Size": 2286,
+              "URL": "https://widgets.ziftsolutions.com/hp.ziftsolutions.com/js/8a0f203c3a8b28bc013abd8ccf031bc2"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-SHA256",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "13.35.115.11",
+          "IncludeInScript": true,
+          "Name": "static.ziftsolutions.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 16,
+              "EventId": 611,
+              "HttpStatus": 200,
+              "Size": 8853,
+              "URL": "https://static.ziftsolutions.com/analytics/8aec7539426e6ba6014271fb03db2f02.js"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-SHA256",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "52.70.246.218",
+          "IncludeInScript": true,
+          "Name": "analytics.ziftsolutions.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 78,
+              "EventId": 742,
+              "HttpStatus": 200,
+              "Size": 48,
+              "URL": "https://analytics.ziftsolutions.com/trk/v?id=ff80818164ee31870164f5b8629f033e&clid=ff8081815e745f42015e7d2754df5943&u=null&ekey=&p=ff80818164ee2ffc0164f5b85a1b0709&uuid_holder=zt_F8a2rSaN&fr=true&refurl="
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 94,
+              "EventId": 735,
+              "HttpStatus": 200,
+              "Size": 48,
+              "URL": "https://analytics.ziftsolutions.com/trk/v?id=8a0f203c3a8b28bc013abd8ccf031bc2&clid=8a7c9fef1e1eb236011e23e7e1aa0364&u=null&ekey=&p=8a7c9fef220ab972012213568e2929ce&uuid_holder=zt_n6TJ36TT&fr=true&refurl="
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 109,
+              "EventId": 733,
+              "HttpStatus": 200,
+              "Size": 48,
+              "URL": "https://analytics.ziftsolutions.com/trk/v?id=8a0f203c3a8b28bc013abd8ccf031bc2&clid=8a7c9fef1e1eb236011e23e7e1aa0364&u=null&ekey=&p=8a7c9fef220ab972012213568e2929ce&uuid_holder=zt_Qc9ZHBm1&fr=true&refurl="
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 93,
+              "EventId": 730,
+              "HttpStatus": 200,
+              "Size": 48,
+              "URL": "https://analytics.ziftsolutions.com/trk/v?id=ff80818164ee31870164f5b8629f033e&clid=ff8081815e745f42015e7d2754df5943&u=null&ekey=&p=ff80818164ee2ffc0164f5b85a1b0709&uuid_holder=zt_zik0hXo2&fr=true&refurl="
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "orasi.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "104.196.183.150",
+          "IncludeInScript": true,
+          "Name": "www.orasi.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 8,
+              "HttpStatus": 301,
+              "Size": 178,
+              "URL": "http://www.orasi.com/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "104.196.183.150",
+          "IncludeInScript": true,
+          "Name": "www.orasi.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 94,
+              "EventId": 695,
+              "HttpStatus": 200,
+              "Size": 17653,
+              "URL": "https://www.orasi.com/wp-content/uploads/2018/08/orasi-logo-retina.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 94,
+              "EventId": 691,
+              "HttpStatus": 200,
+              "Size": 620,
+              "URL": "https://www.orasi.com/wp-content/uploads/2016/05/favicon-graphic-16x16.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 141,
+              "EventId": 557,
+              "HttpStatus": 200,
+              "Size": 2545,
+              "URL": "https://www.orasi.com/wp-content/plugins/revslider/public/assets/assets/loader.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/vnd.ms-fontobject",
+              "DownloadTime": 156,
+              "EventId": 555,
+              "HttpStatus": 200,
+              "Size": 12136,
+              "URL": "https://www.orasi.com/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.eot?5510888"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 78,
+              "EventId": 475,
+              "HttpStatus": 200,
+              "Size": 7393,
+              "URL": "https://www.orasi.com/wp-content/plugins/logos-showcase/bxslider/images/bx_loader.gif"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 110,
+              "EventId": 450,
+              "HttpStatus": 200,
+              "Size": 2822,
+              "URL": "https://www.orasi.com/wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.actions.min.js?version=5.4.8"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 125,
+              "EventId": 448,
+              "HttpStatus": 200,
+              "Size": 16980,
+              "URL": "https://www.orasi.com/wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.layeranimation.min.js?version=5.4.8"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 94,
+              "EventId": 446,
+              "HttpStatus": 200,
+              "Size": 8108,
+              "URL": "https://www.orasi.com/wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.navigation.min.js?version=5.4.8"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 141,
+              "EventId": 440,
+              "HttpStatus": 200,
+              "Size": 7985,
+              "URL": "https://www.orasi.com/wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.slideanims.min.js?version=5.4.8"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/vnd.ms-fontobject",
+              "DownloadTime": 78,
+              "EventId": 334,
+              "HttpStatus": 200,
+              "Size": 16308,
+              "URL": "https://www.orasi.com/wp-content/plugins/ditty-news-ticker/assets/fontastic/fonts/ditty-news-ticker.eot?"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 228,
+              "HttpStatus": 200,
+              "Size": 4932,
+              "URL": "https://www.orasi.com/wp-content/uploads/2017/02/orasi-logo-mobile.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 62,
+              "EventId": 217,
+              "HttpStatus": 200,
+              "Size": 5214,
+              "URL": "https://www.orasi.com/wp-content/uploads/2016/07/xebialabs.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 47,
+              "EventId": 213,
+              "HttpStatus": 200,
+              "Size": 27324,
+              "URL": "https://www.orasi.com/wp-content/uploads/2016/09/tricentis.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 63,
+              "EventId": 207,
+              "HttpStatus": 200,
+              "Size": 3395,
+              "URL": "https://www.orasi.com/wp-content/uploads/2016/07/tasktop.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 171,
+              "EventId": 199,
+              "HttpStatus": 200,
+              "Size": 93237,
+              "URL": "https://www.orasi.com/wp-content/uploads/2018/08/connectall-orasi-slider-background.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 156,
+              "EventId": 197,
+              "HttpStatus": 200,
+              "Size": 4192,
+              "URL": "https://www.orasi.com/wp-content/uploads/2016/07/perfecto.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 172,
+              "EventId": 195,
+              "HttpStatus": 200,
+              "Size": 4102,
+              "URL": "https://www.orasi.com/wp-content/uploads/2016/07/sap-partner.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 141,
+              "EventId": 193,
+              "HttpStatus": 200,
+              "Size": 28795,
+              "URL": "https://www.orasi.com/wp-content/uploads/2016/09/tableau.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 110,
+              "EventId": 188,
+              "HttpStatus": 200,
+              "Size": 3717,
+              "URL": "https://www.orasi.com/wp-content/uploads/2016/07/mobile-labs.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/vnd.ms-fontobject",
+              "DownloadTime": 141,
+              "EventId": 185,
+              "HttpStatus": 200,
+              "Size": 17888,
+              "URL": "https://www.orasi.com/wp-content/themes/Avada/includes/lib/assets/fonts/icomoon/icomoon.eot?"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 47,
+              "EventId": 175,
+              "HttpStatus": 200,
+              "Size": 5420,
+              "URL": "https://www.orasi.com/wp-content/uploads/2016/09/micro-focus.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 125,
+              "EventId": 171,
+              "HttpStatus": 200,
+              "Size": 4469,
+              "URL": "https://www.orasi.com/wp-content/uploads/2016/07/intact-technology.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 172,
+              "EventId": 165,
+              "HttpStatus": 200,
+              "Size": 18742,
+              "URL": "https://www.orasi.com/wp-content/uploads/2016/09/delphix.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 62,
+              "EventId": 161,
+              "HttpStatus": 200,
+              "Size": 2384,
+              "URL": "https://www.orasi.com/wp-content/uploads/2016/07/app-dynamix.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 47,
+              "EventId": 159,
+              "HttpStatus": 200,
+              "Size": 3977,
+              "URL": "https://www.orasi.com/wp-content/uploads/2016/07/ca-technologies.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 234,
+              "EventId": 153,
+              "HttpStatus": 200,
+              "Size": 38559,
+              "URL": "https://www.orasi.com/wp-content/uploads/2016/09/alteryx.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 219,
+              "EventId": 151,
+              "HttpStatus": 200,
+              "Size": 24822,
+              "URL": "https://www.orasi.com/wp-content/uploads/2016/05/news-events-bucket-graphic-340.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 141,
+              "EventId": 149,
+              "HttpStatus": 200,
+              "Size": 10489,
+              "URL": "https://www.orasi.com/wp-content/uploads/2016/05/upcoming-events-bucket-graphic-v2.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 47,
+              "EventId": 143,
+              "HttpStatus": 200,
+              "Size": 55074,
+              "URL": "https://www.orasi.com/wp-content/uploads/2016/05/agile-manager-mockup-v2.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 109,
+              "EventId": 126,
+              "HttpStatus": 200,
+              "Size": 73516,
+              "URL": "https://www.orasi.com/wp-content/uploads/2016/09/slider_security-opt.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 78,
+              "EventId": 123,
+              "HttpStatus": 200,
+              "Size": 18895,
+              "URL": "https://www.orasi.com/wp-content/uploads/2016/05/Orasi-University-427-hires.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 109,
+              "EventId": 121,
+              "HttpStatus": 200,
+              "Size": 107184,
+              "URL": "https://www.orasi.com/wp-content/uploads/fusion-styles/6c41d5dacf6bc3b36645782f4c4f693d.min.css?ver=4.9.9"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 47,
+              "EventId": 117,
+              "HttpStatus": 200,
+              "Size": 126212,
+              "URL": "https://www.orasi.com/wp-content/uploads/2017/02/slider_pt-opt.jpg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 47,
+              "EventId": 115,
+              "HttpStatus": 200,
+              "Size": 4896,
+              "URL": "https://www.orasi.com/wp-includes/js/wp-emoji-release.min.js?ver=4.9.9"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 234,
+              "EventId": 103,
+              "HttpStatus": 200,
+              "Size": 93247,
+              "URL": "https://www.orasi.com/wp-content/uploads/2017/02/slider_support-022817-opt.jpg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 141,
+              "EventId": 101,
+              "HttpStatus": 200,
+              "Size": 39407,
+              "URL": "https://www.orasi.com/wp-includes/js/jquery/jquery.js?ver=1.12.4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 63,
+              "EventId": 95,
+              "HttpStatus": 200,
+              "Size": 85074,
+              "URL": "https://www.orasi.com/wp-content/uploads/2016/09/slider_cd-opt.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 46,
+              "EventId": 91,
+              "HttpStatus": 200,
+              "Size": 8561,
+              "URL": "https://www.orasi.com/wp-content/uploads/2018/08/Connectall-an-Orasi-Company-275.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 78,
+              "EventId": 87,
+              "HttpStatus": 200,
+              "Size": 4452,
+              "URL": "https://www.orasi.com/wp-content/uploads/2016/05/orasi-logo.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 46,
+              "EventId": 64,
+              "HttpStatus": 200,
+              "Size": 343373,
+              "URL": "https://www.orasi.com/wp-content/cache/autoptimize/js/autoptimize_9b22e91a9bfc2e3d6f705f20ed5239a4.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 63,
+              "EventId": 45,
+              "HttpStatus": 200,
+              "Size": 69079,
+              "URL": "https://www.orasi.com/wp-content/cache/autoptimize/css/autoptimize_a96379cee1ef88e91062a520dd62e1a3.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 94,
+              "EventId": 40,
+              "HttpStatus": 200,
+              "Size": 20758,
+              "URL": "https://www.orasi.com/"
+            }
+          ],
+          "SSLCipher": "DHE-RSA-AES256-GCM-SHA384",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "gstatic.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.15.195",
+          "IncludeInScript": true,
+          "Name": "fonts.gstatic.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "font/ttf",
+              "DownloadTime": 16,
+              "EventId": 658,
+              "HttpStatus": 200,
+              "Size": 37061,
+              "URL": "https://fonts.gstatic.com/s/ubuntu/v12/4iCv6KVjbNBYlgoCjC3jsGyI.ttf"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff",
+              "DownloadTime": 390,
+              "EventId": 530,
+              "HttpStatus": 200,
+              "Size": 39164,
+              "URL": "https://fonts.gstatic.com/s/ubuntu/v12/4iCs6KVjbNBYlgoKfw7w.woff"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "font/ttf",
+              "DownloadTime": 31,
+              "EventId": 492,
+              "HttpStatus": 200,
+              "Size": 41808,
+              "URL": "https://fonts.gstatic.com/s/ubuntu/v12/4iCs6KVjbNBYlgoKfw7z.ttf"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff",
+              "DownloadTime": 78,
+              "EventId": 456,
+              "HttpStatus": 200,
+              "Size": 34688,
+              "URL": "https://fonts.gstatic.com/s/ubuntu/v12/4iCv6KVjbNBYlgoCjC3jsGyL.woff"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "font/ttf",
+              "DownloadTime": 110,
+              "EventId": 444,
+              "HttpStatus": 200,
+              "Size": 46985,
+              "URL": "https://fonts.gstatic.com/s/ubuntu/v12/4iCv6KVjbNBYlgoC1CzjsGyI.ttf"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff",
+              "DownloadTime": 32,
+              "EventId": 410,
+              "HttpStatus": 200,
+              "Size": 20012,
+              "URL": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc-.woff"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "font/ttf",
+              "DownloadTime": 31,
+              "EventId": 379,
+              "HttpStatus": 200,
+              "Size": 21854,
+              "URL": "https://fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1Mu51xIIzc.ttf"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "font/ttf",
+              "DownloadTime": 62,
+              "EventId": 376,
+              "HttpStatus": 200,
+              "Size": 20309,
+              "URL": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfBBc9.ttf"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "font/ttf",
+              "DownloadTime": 109,
+              "EventId": 350,
+              "HttpStatus": 200,
+              "Size": 20366,
+              "URL": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmSU5fBBc9.ttf"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "font/ttf",
+              "DownloadTime": 172,
+              "EventId": 287,
+              "HttpStatus": 200,
+              "Size": 21446,
+              "URL": "https://fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51TzBic6CsE.ttf"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "font/ttf",
+              "DownloadTime": 47,
+              "EventId": 261,
+              "HttpStatus": 200,
+              "Size": 20272,
+              "URL": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxP.ttf"
+            }
+          ],
+          "SSLCipher": "ECDHE-ECDSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "216.58.192.42",
+          "IncludeInScript": true,
+          "Name": "fonts.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 62,
+              "EventId": 264,
+              "HttpStatus": 200,
+              "Size": 285,
+              "URL": "https://fonts.googleapis.com/css?family=Ubuntu:500%2C400%7CRoboto:500"
+            }
+          ],
+          "SSLCipher": "ECDHE-ECDSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.8.132",
+          "IncludeInScript": true,
+          "Name": "www.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 31,
+              "EventId": 728,
+              "HttpStatus": 200,
+              "Size": 42,
+              "URL": "https://www.google.com/ads/ga-audiences?v=1&aip=1&t=sr&_r=4&tid=UA-45067552-1&cid=371766492.1547584721&jid=597250138&_v=j72&z=1688496788"
+            }
+          ],
+          "SSLCipher": "ECDHE-ECDSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google-analytics.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.3.142",
+          "IncludeInScript": true,
+          "Name": "www.google-analytics.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 78,
+              "EventId": 498,
+              "HttpStatus": 302,
+              "Size": 417,
+              "URL": "https://www.google-analytics.com/r/collect?v=1&_v=j72&a=1678893914&t=pageview&_s=1&dl=https%3A%2F%2Fwww.orasi.com%2F&ul=en-us&de=utf-8&dt=HOME%20-%20Orasi%20Software%2C%20Inc.&sd=24-bit&sr=1597x927&vp=1580x787&je=1&_u=IEBAAEQ~&jid=597250138&gjid=1447271234&cid=371766492.1547584721&tid=UA-45067552-1&_gid=436599593.1547584721&_r=1&z=1688496788"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 31,
+              "EventId": 325,
+              "HttpStatus": 200,
+              "Size": 17404,
+              "URL": "https://www.google-analytics.com/analytics.js"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-SHA",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "doubleclick.net",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "74.125.141.157",
+          "IncludeInScript": true,
+          "Name": "stats.g.doubleclick.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 32,
+              "EventId": 632,
+              "HttpStatus": 302,
+              "Size": 365,
+              "URL": "https://stats.g.doubleclick.net/r/collect?v=1&aip=1&t=dc&_r=3&tid=UA-45067552-1&cid=371766492.1547584721&jid=597250138&_gid=436599593.1547584721&gjid=1447271234&_v=j72&z=1688496788"
+            }
+          ],
+          "SSLCipher": "ECDHE-ECDSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "bing.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "13.107.21.200",
+          "IncludeInScript": true,
+          "Name": "www.bing.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/x-icon",
+              "DownloadTime": 16,
+              "EventId": 36,
+              "HttpStatus": 200,
+              "Size": 237,
+              "URL": "http://www.bing.com/favicon.ico"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 0
+}

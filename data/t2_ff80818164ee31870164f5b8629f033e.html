@@ -1,0 +1,126 @@
+/* Pushed : Wed, 7 Nov 2018 9:20 PM UTC */
+
+
+/*Putting onload function - ensuring visibility */
+function zAddOnLoad(func)  {var o = window.onload;if (typeof window.onload != 'function') {window.onload = func;} else {window.onload = function() { try { if (o) { o(); } } catch (err) {} func(); }}};
+
+/*Identifying script location - parent tag */
+var scriptTag = document.scripts[document.scripts.length - 1];var pt_ff80818164ee31870164f5b8629f033e = scriptTag.parentNode;
+if(zQStringValue('zBase')){window['pt_'+zQStringValue('zBase')]=pt_ff80818164ee31870164f5b8629f033e;}
+
+try{
+if (document.getElementById('ff80818164ee31870164f5b8629f033e')) { 
+	pt_ff80818164ee31870164f5b8629f033e = document.getElementById('ff80818164ee31870164f5b8629f033e'); 
+}
+} catch (err) {}
+
+/*adding key variables */
+var zBaseUrl = 'https://widgets.ziftsolutions.com/alteryx.ziftsolutions.com/js/ff80818164ee31870164f5b8629f033e';
+var zBaseKey = 'alteryx.ziftsolutions.com/js/';
+var zStandaloneBaseUrl = 'https://sites.ziftsolutions.com/alteryx.ziftsolutions.com/ff80818164ee31870164f5b8629f033e';
+
+
+/*adding panel loading via analytics */
+if (!zBaseComplete) var zBaseComplete = false; 
+
+
+/*writing core js */
+var zPanela1789;
+var zPanelLoadCalls = new Array();
+var zLoaded = false;
+var zLoadInterval;
+function zDoPanelLoad() {
+zLoadInterval = window.setInterval(zDoPanelLoadInternal, 500);
+}
+function zDoPanelLoadInternal() {
+if (!zLoaded) {
+try {
+zPanela1789 = new zwPanel('zPage','zFormId',"zFormValidation(this.getForm())",'ziftc','zSubmissionRefId','zift.trackback', 'https://sites.ziftsolutions.com/alteryx.ziftsolutions.com/ff80818164ee31870164f5b8629f033e', 'zPanela1789');
+zPanela1789.setEmailKey();
+zPanela1789.loadSerialized();
+zPanela1789.defaultForm();
+zPanela1789.setTrackbacks();
+zSetDynamicPanelAttributes();
+for (var i = 0; i < zPanelLoadCalls.length; i++) eval(zPanelLoadCalls[i]);
+zLoaded = true;
+clearInterval(zLoadInterval);
+} catch (err) {
+zLoaded = false;
+}
+} else {
+clearInterval(zLoadInterval);
+}
+}
+function zAddPanelLoadEvent(func) {
+zPanelLoadCalls[zPanelLoadCalls.length] = func;
+}
+function zQStringValue(param) {
+var query=document.location.search.substring(1);
+if (query.length > 0){
+var params=query.split('&');
+for (var i=0 ; i<params.length ; i++){
+var pos = params[i].indexOf('=');
+var name = params[i].substring(0, pos);
+var value = params[i].substring(pos + 1);
+if (name == param) {
+return value;
+break;
+}
+}
+}
+return null;
+}
+var zPage = zQStringValue('zPage');
+try { if (typeof(zPageOverride) != 'undefined') zPage = zPageOverride; } catch (err) {} 
+
+var zBaseSkipTrack = false; 
+var zBase = zQStringValue('zBase');
+try { if (typeof(zBase) != 'undefined' && zBase != null) { zBaseUrl = 'https://widgets.ziftsolutions.com/' + zBaseKey + zBase; zBaseSkipTrack = true; }} catch (err) {} 
+
+function addZiftLoadEvent(func) { 
+  if (document.readyState === "complete") { try{func();}catch(e){console.error(e)} } else {   if (window.attachEvent){    return window.attachEvent('onload', func);  }else{    return window.addEventListener('load', func, false);  }} }
+function zScriptInclude(page) {
+var el = document.createElement('script');
+el.type = 'text/javascript';
+if(document.location.protocol === 'https:' && page.indexOf('http://') === 0) {
+page = 'https://' + page.substring('7');
+}
+el.src = page ;
+el.async = false;
+return el;}
+function zWriteScriptInclude(page) {
+pt_ff80818164ee31870164f5b8629f033e.appendChild(zScriptInclude(zBaseUrl + (zPage?'/'+zPage:'')));
+}
+function zWriteElementInclude(el) {
+pt_ff80818164ee31870164f5b8629f033e.appendChild(el);
+}
+
+
+/*processing dynamic step rules and routing */
+var ztrack_ff80818164ee31870164f5b8629f033e;if (typeof(zBase) == 'undefined' || zBase == null || zBase == 'null' || (zBase != null && zBaseComplete)) {addZiftLoadEvent(function() { ztrack_ff80818164ee31870164f5b8629f033e = new ZTrack({ h: 'https://analytics.ziftsolutions.com/', i: (zBase?zBase:'ff80818164ee31870164f5b8629f033e'), p: 'ff80818164ee2ffc0164f5b85a1b0709', c: 'ff8081815e745f42015e7d2754df5943', t: 't'} );}); zTS = 'https://alteryx.ziftsolutions.com/';}
+var zroute = zQStringValue('zroute');
+
+if (zroute != null && zroute != 'null') setTimeout(function() {window.location = decodeURIComponent(zroute);}, 500);
+
+
+/*writing panel body */
+var callDoPanelLoad=true;
+if (zBase != null && zBase != 'null' && !zBaseComplete) {  zBaseComplete=true; zWriteElementInclude(zScriptInclude(zBaseUrl)); } else {
+var zContent = {"content":"","baseJS":"<script type='text/javascript'>\nfunction zGetNextPageInternal(param, link) {\nreturn 'ff8081815e97fa31015e9ff63c96178b';\n}\nfunction zGotoNextPageInternal(param, link) {\nzPanela1789.setPageCookieForNextPage(zQStringValue('zPage'));\nzPanela1789.incrementPageCount();\nzPanela1789.gotoPage(param, zNextPage, link, true);\nreturn zNextPage;\n}\nfunction zSetDynamicPanelAttributes() { \nzPanela1789.setExternalFormUrl('https://form.ziftsolutions.com/open/ExternalFormProcessor.html');\n}\n<\/script>","onloadJS":"<script type='text/javascript'>\nzDoPanelLoad();\n<\/script>","scriptIncludes":""};
+var s_5024 = document.createElement('div');s_5024.style.height = '0';s_5024.className = 'z_panel_base z_p_Tracking z_ps_Default';s_5024.id = 'pw_ff80818164ee31870164f5b8629f033e';s_5024.style.display = 'none';pt_ff80818164ee31870164f5b8629f033e.appendChild(s_5024);
+s_5024.innerHTML = zContent.content;
+var s_5327 = document.createElement('span');pt_ff80818164ee31870164f5b8629f033e.appendChild(s_5327);
+}
+function zGetNextPageInternal(param, link) {
+return 'ff8081815e97fa31015e9ff63c96178b';
+}
+function zGotoNextPageInternal(param, link) {
+zPanela1789.setPageCookieForNextPage(zQStringValue('zPage'));
+zPanela1789.incrementPageCount();
+zPanela1789.gotoPage(param, zNextPage, link, true);
+return zNextPage;
+}
+function zSetDynamicPanelAttributes() { 
+zPanela1789.setExternalFormUrl('https://form.ziftsolutions.com/open/ExternalFormProcessor.html');
+}
+zDoPanelLoad();
